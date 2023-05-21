@@ -205,7 +205,7 @@ def create_power_sheet(folder_path, substrings, sequence_power_t001_02, sequence
     merged_data.to_excel(output_file_path, index=False, header=False)
 
 def main():
-    folder_path = r'C:\Users\Athavan\Desktop\InSiteOutput'
+    folder_path = '/home/athavan/COMP167/emulate-code-insite/InSiteOutput/'
     substrings = ['.dod.', '.doa.', '.fspl.', '.pl.', '.power.', '.xpl.']
     sequence_doa_t001_02 = ['.doa.t001_02.r010', '.doa.t001_02.r009', '.doa.t001_02.r007', '.doa.t001_02.r011']
     sequence_dod_t001_02 = ['.dod.t001_02.r010', '.dod.t001_02.r009', '.dod.t001_02.r007', '.dod.t001_02.r011']
